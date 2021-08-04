@@ -3,7 +3,7 @@ require("chromedriver");
 
 const chrome = require('selenium-webdriver/chrome');
 var options = new chrome.Options();
-options.setChromeBinaryPath("C:/Program Files/Google/Chrome/Application/chrome.exe");
+options.setChromeBinaryPath("/usr/bin/google-chrome");
 options.addArguments("--headless");
 
 async function example(){
